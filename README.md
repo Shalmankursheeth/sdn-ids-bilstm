@@ -47,12 +47,12 @@ This project presents an Intrusion Detection System (IDS) tailored for Software 
 3.Simulate Attacks
     Run traffic simulation scripts (e.g., SYN flood):
       
-      sudo bash scripts/hpingtest.sh
+        sudo bash scripts/hpingtest.sh
 
 4.Model Testing
     Evaluate the BiLSTM model:
 
-      python3 scripts/test.py
+        python3 scripts/test.py
 
 📊 Results
 The project includes results from testing multiple attack scenarios, showcasing detection accuracy and false positive rates. More details are inside the research paper under /paper.
